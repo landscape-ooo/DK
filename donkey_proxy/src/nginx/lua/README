@@ -1,0 +1,15 @@
+README
+
+domain/path1/path2 -> /group/
+
+
+===关于antispider===
+  ctx.handleNgx
+    parse_only: 只对url进行解析，返回解析的信息；不向后端服务器发出请求（debug)
+    antispider: 是否关闭antispider功能
+
+  QA环境
+    规则文件中，带有antispam标志的url
+    [QA Only] 如果请求中有spam关键字，会触发验证码
+    [Online] 调用服务
+

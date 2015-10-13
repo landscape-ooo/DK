@@ -1,0 +1,12 @@
+tengine+lua based soaproxy alternative
+branch:sa+lua  upstream conf
+branch:lua   .domain,uri,pdt rule and so on  is in lua 
+
+===change log 2015-8-18 
+support  bj.ganji.com/canyinzhaopin/
+
+
+
+===unittest
+check.lua
+eg:lua check.lua  '/server/www/donkey-data/nginx/lua/data/wap_case/'
